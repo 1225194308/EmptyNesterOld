@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "38A7303019539466D8D12C0DD3B61DFD4855A7F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "38A7303019539466D8D12C0DD3B61DFD4855A7F7" : 0,
+    "3193F134D3B587FF7452D0F4BD41E84E8EA6A62B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A838DA1E-0AED-4CE2-BF29-2DAD062D0C77",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "38A7303019539466D8D12C0DD3B61DFD4855A7F7" : "ENB\/",
+    "3193F134D3B587FF7452D0F4BD41E84E8EA6A62B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EmptyNester",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EmptyNester\/EmptyNester.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kanghaolong\/NSSTring.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3193F134D3B587FF7452D0F4BD41E84E8EA6A62B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/1225194308\/ENB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38A7303019539466D8D12C0DD3B61DFD4855A7F7"
+    }
+  ]
+}
