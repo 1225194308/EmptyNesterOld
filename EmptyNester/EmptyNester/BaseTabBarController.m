@@ -49,7 +49,7 @@
 {
     NSArray* normalName = @[@"icon1_c_footer@3x.png",@"icon2_c_footer.png",@"tabbar-discover",@"icon3_c_footer@3x.png",@"tabbar-me"];
     NSArray *selectedName = @[@"icon1_s_footer",@"icon2_s_footer",@"tabbar-discover-selected",@"icon3_s_footer@3x.png",@"tabbar-me-selected"];
-    NSArray *tabBarName = @[@"首页",@"朋友圈",@"发现",@"提醒",@"我的健康"];
+    NSArray *tabBarName = @[@"首页",@"社区",@"发现",@"提醒",@"我的健康"];
     for(UIView* view in self.tabBar.subviews)
     {
         [view removeFromSuperview];

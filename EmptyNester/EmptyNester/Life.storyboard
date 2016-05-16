@@ -40,7 +40,7 @@
                             <rect key="frame" x="180" y="7" width="240" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
-                                <segment title="饮食规划"/>
+                                <segment title="膳食管理"/>
                                 <segment title="每日锻炼"/>
                             </segments>
                         </segmentedControl>

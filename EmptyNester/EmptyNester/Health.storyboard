@@ -25,16 +25,15 @@
         <scene sceneID="dK8-Jm-8Ih">
             <objects>
                 <viewController id="fn7-on-a0W" customClass="HealthViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="36Q-cL-hpT"/>
-                        <viewControllerLayoutGuide type="bottom" id="DMH-G3-KxH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="f19-Eb-Kyr">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Tcp-RP-CGX"/>
+                    <navigationItem key="navigationItem" id="Tcp-RP-CGX">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" title="点击登录" id="sKx-0e-yIh">
+                            <color key="tintColor" red="0.097307814201053777" green="0.48202730429292928" blue="0.21748769586629968" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="login:" destination="fn7-on-a0W" id="o9z-5Q-4IB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="93r-j9-zNU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

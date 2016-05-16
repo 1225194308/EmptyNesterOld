@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HealthViewController : UIViewController
-
+@interface HealthViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,strong)UITableView* tableView;
+- (IBAction)login:(UIBarButtonItem *)sender;
+@property(nonatomic,strong)UISwitch* switchOpen;
+@property(nonatomic,assign)BOOL isOpen;
 @end
