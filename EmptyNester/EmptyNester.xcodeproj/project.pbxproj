@@ -18,7 +18,7 @@
 		290AB8BF1CECA0C700D24ED1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290AB8BE1CECA0C700D24ED1 /* SystemConfiguration.framework */; };
 		290AB8C11CECA0D000D24ED1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 290AB8C01CECA0D000D24ED1 /* libz.tbd */; };
 		290AB8C31CECA0FD00D24ED1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290AB8C21CECA0FD00D24ED1 /* AddressBook.framework */; };
-		290AB8C61CECA1F700D24ED1 /* HLocalNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8C51CECA1F700D24ED1 /* HLocalNotificationCenter.m */; };
+		29D50DDF1CEDCFCE00AE210C /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D50DDE1CEDCFCE00AE210C /* iflyMSC.framework */; };
 		F5692BC11CE8751800D46D96 /* FootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5692BC01CE8751800D46D96 /* FootViewController.m */; };
 		F5692BC51CE8758500D46D96 /* stepView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5692BC41CE8758500D46D96 /* stepView.m */; };
 		F5692BE01CE8761500D46D96 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F5692BC81CE8761500D46D96 /* MASCompositeConstraint.m */; };
@@ -96,8 +96,7 @@
 		290AB8BE1CECA0C700D24ED1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		290AB8C01CECA0D000D24ED1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		290AB8C21CECA0FD00D24ED1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		290AB8C41CECA1F700D24ED1 /* HLocalNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLocalNotificationCenter.h; path = EmptyNester/HLocalNotificationCenter.h; sourceTree = "<group>"; };
-		290AB8C51CECA1F700D24ED1 /* HLocalNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLocalNotificationCenter.m; path = EmptyNester/HLocalNotificationCenter.m; sourceTree = "<group>"; };
+		29D50DDE1CEDCFCE00AE210C /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = EmptyNester/iflyMSC.framework; sourceTree = "<group>"; };
 		F5692BBF1CE8751800D46D96 /* FootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootViewController.h; sourceTree = "<group>"; };
 		F5692BC01CE8751800D46D96 /* FootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootViewController.m; sourceTree = "<group>"; };
 		F5692BC31CE8758500D46D96 /* stepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stepView.h; sourceTree = "<group>"; };
@@ -218,6 +217,7 @@
 				290AB8C31CECA0FD00D24ED1 /* AddressBook.framework in Frameworks */,
 				290AB8C11CECA0D000D24ED1 /* libz.tbd in Frameworks */,
 				290AB8BF1CECA0C700D24ED1 /* SystemConfiguration.framework in Frameworks */,
+				29D50DDF1CEDCFCE00AE210C /* iflyMSC.framework in Frameworks */,
 				290AB8BD1CECA0BC00D24ED1 /* CoreTelephony.framework in Frameworks */,
 				290AB8BB1CECA0AF00D24ED1 /* AVFoundation.framework in Frameworks */,
 				290AB8B91CECA0A400D24ED1 /* QuartzCore.framework in Frameworks */,
@@ -328,8 +328,7 @@
 		F59149BE1CE42D6500E7FBE7 = {
 			isa = PBXGroup;
 			children = (
-				290AB8C41CECA1F700D24ED1 /* HLocalNotificationCenter.h */,
-				290AB8C51CECA1F700D24ED1 /* HLocalNotificationCenter.m */,
+				29D50DDE1CEDCFCE00AE210C /* iflyMSC.framework */,
 				290AB8B21CECA07600D24ED1 /* iflyMSC.framework */,
 				F5E416841CE6C5A10073FE77 /* Frameworks */,
 				F59149C91CE42D6500E7FBE7 /* EmptyNester */,
@@ -620,7 +619,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290AB8C61CECA1F700D24ED1 /* HLocalNotificationCenter.m in Sources */,
 				F5EB2CEF1CE9FC5500AF6019 /* PulseViewController.m in Sources */,
 				F5EB2CE51CE9F6B800AF6019 /* BPViewController.m in Sources */,
 				F5EB2CD51CE9D2AE00AF6019 /* SecondViewController.m in Sources */,
