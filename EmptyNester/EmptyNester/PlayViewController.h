@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PlayViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *warning;
+- (IBAction)begin:(id)sender;
 
 @end
