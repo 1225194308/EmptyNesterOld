@@ -39,6 +39,7 @@
     [self.view addSubview:_tableView];
     
     array = @[@"这个",@"页面",@"自由",@"更改"];
+    NSLog(@"刚哥，敢不敢靠谱点");
     
 }
 -(void)barButtonTap
